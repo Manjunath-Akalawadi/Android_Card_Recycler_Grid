@@ -16,16 +16,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <ImageView
-
                 android:layout_width="170dp"
                 android:layout_height="200dp"
-                android:id="@+id/image_id"
-
-                />
+                android:id="@+id/image_id"/>
 
             <TextView
                 android:id="@+id/title_id"
@@ -34,8 +30,8 @@
                 android:text="Movie Title"
                 android:layout_marginTop="15dp"
                 android:textSize="22sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/cat_id"
                 android:layout_width="wrap_content"
@@ -43,8 +39,7 @@
                 android:text="Category"
                 android:padding="10dp"
                 android:background="#edecec"
-                android:layout_marginTop="10dp"
-                />
+                android:layout_marginTop="10dp" />
 
             <TextView
                 android:id="@+id/desc_id"
@@ -52,8 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:textSize="18sp"
-                android:text="Description"
-                />
+                android:text="Description" />
 
         </LinearLayout>
 
